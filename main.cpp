@@ -13,5 +13,9 @@ int main(){
   std::cout<< "Subtraction: "<< first << "-" << second << "=";
   std::cout<< (first-second) << std::endl;
 
+  if (second == 0.0) {
+      std::cout << "Division: " << first << " / " << second << " = " << (first / second) << std::endl;
+  }
+
   return 0;
 }
