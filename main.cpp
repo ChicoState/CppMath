@@ -13,5 +13,8 @@ int main(){
   std::cout<< "Subtraction: "<< first << "-" << second << "=";
   std::cout<< (first-second) << std::endl;
 
+  std::cout<< "Multiplication: "<< first << "*" << second << "=";
+  std::cout<< (first*second) << std::endl;
+
   return 0;
 }
