@@ -12,6 +12,7 @@ int main(){
   std::cout<< (first+second) << std::endl;
   std::cout<< "Subtraction: "<< first << "-" << second << "=";
   std::cout<< (first-second) << std::endl;
-
+  std::cout<< "Multipcation: "<< first << "*" << second << "="; 
+  std::cout <<(first*second) << std::endl; 
   return 0;
 }
