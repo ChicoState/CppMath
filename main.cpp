@@ -19,5 +19,9 @@ int main(){
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
 
+  if (second == 0.0) {
+      std::cout << "Division: " << first << " / " << second << " = " << (first / second) << std::endl;
+  }
+
   return 0;
 }
