@@ -14,6 +14,8 @@ int main(){
   std::cout<< (first-second) << std::endl;
   std::cout<< "Multiuplication: "<< first << "*" << second << "=";
   std::cout<< (first*second) << std::endl;
+  std::cout<< "Division: "<< first << "/" << second << "=";
+  std::cout<< (first/second) << std::end
 
   return 0;
 }
