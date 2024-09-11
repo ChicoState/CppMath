@@ -1,18 +1,21 @@
 #include <iostream>
 
+using std::cout;
+using std::cin;
+using std::endl;
+
 int main(){
   double first, second;
 
-  std::cout<< "First number: ";
-  std::cin>> first;
-  std::cout<< "Second number: ";
-  std::cin>> second;
+  cout<< "First number: ";
+  cin>> first;
+  cout<< "Second number: ";
+  cin>> second;
+  cout<< (first+second) << endl;
+  cout<< "Subtraction: "<< first << "-" << second << "=";
+  cout<< (first-second) << endl;
+  cout<< "Multiplication: "<< first << "*" << second << "=";
+  cout<< (first*second) << endl;
 
-  std::cout<< "Addition: "<< first << "+" << second << "=";
-  std::cout<< (first+second) << std::endl;
-  std::cout<< "Subtraction: "<< first << "-" << second << "=";
-  std::cout<< (first-second) << std::endl;
-  std::cout<< "Multiplication: "<< first << "*" << second << "=";
-  std::cout<< (first*second) << std::endl;
   return 0;
 }
