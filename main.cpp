@@ -1,5 +1,8 @@
 #include <iostream>
-using namespace std;
+
+using std::cout;
+using std::cin;
+using std::endl;
 
 int main(){
   double first, second;
@@ -13,10 +16,8 @@ int main(){
   cout<< (first+second) << endl;
   cout<< "Subtraction: "<< first << "-" << second << "=";
   cout<< (first-second) << endl;
-  cout<< "Multiplcation: "<< first << "*" << second << "=";
+  cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
-  cout<< "Division: "<< first << "/" << second << "=";
-  cout<< (first/second) << endl;
 
   return 0;
 }
