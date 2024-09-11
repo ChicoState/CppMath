@@ -18,6 +18,8 @@ int main(){
   cout<< (first-second) << endl;
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
+  cout<< "Divisioon: "<< first << "/" << second << "=";
+  cout<< (first/second) << endl;
 
   return 0;
 }
