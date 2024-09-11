@@ -12,6 +12,14 @@ int main(){
   std::cout<< (first+second) << std::endl;
   std::cout<< "Subtraction: "<< first << "-" << second << "=";
   std::cout<< (first-second) << std::endl;
+  std::cout<< "Multiplication: "<< first << "*" << second << "=";
+  std::cout<< (first*second) << std::endl;
+  if (second == 0) {
+    std::cout<< "Division: "<< "Error - cannot divide by zero!" << std::endl;
+  } else {
+    std::cout<< "Division: "<< first << "/" << second << "=";
+    std::cout<< (first/second) << std::endl;
+  }
 
   return 0;
 }
