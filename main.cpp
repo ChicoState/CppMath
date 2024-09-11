@@ -10,7 +10,7 @@ int main(){
   cout<< "First number: ";
   cin>> first;
   cout<< "Second number: ";
-  cin>> second;
+  cin>> second; //hi
 
   cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
