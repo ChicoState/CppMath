@@ -1,6 +1,7 @@
 #include <iostream>
 
 using std::cout;
+using std::cin;
 using std::endl;
 
 int main(){
@@ -15,7 +16,7 @@ int main(){
   cout<< (first+second) << endl;
   cout<< "Subtraction: "<< first << "-" << second << "=";
   cout<< (first-second) << endl;
-  cout<< "Subtraction: "<< first << "*" << second << "=";
+  cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
 
   return 0;
