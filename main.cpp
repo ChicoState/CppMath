@@ -1,19 +1,19 @@
 #include <iostream>
 
-int main(){
+int main() {
   double first, second;
 
-  std::cout<< "First number: ";
-  std::cin>> first;
-  std::cout<< "Second number: ";
-  std::cin>> second;
+  std::cout << "First number: ";
+  std::cin >> first;
+  std::cout << "Second number: ";
+  std::cin >> second;
 
-  std::cout<< "Addition: "<< first << "+" << second << "=";
-  std::cout<< (first+second) << std::endl;
-  std::cout<< "Subtraction: "<< first << "-" << second << "=";
-  std::cout<< (first-second) << std::endl;
+  std::cout << "Addition: "<< first << "+" << second << "=";
+  std::cout << (first+second) << std::endl;
+  std::cout << "Subtraction: "<< first << "-" << second << "=";
+  std::cout << (first-second) << std::endl;
 
-  if (second == 0.0) {
+  if (second != 0.0) {
       std::cout << "Division: " << first << " / " << second << " = " << (first / second) << std::endl;
   }
 
