@@ -18,9 +18,5 @@ int main(){
   cout<< (first-second) << endl;
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
-
-  std::cout<< "Multiplication:" << first << "*" << second <<"=";
-  std::cout<< (first*second) << std::endl;
-
   return 0;
 }
