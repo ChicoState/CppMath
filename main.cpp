@@ -8,11 +8,12 @@ int main(){
   std::cout<< "Second number: ";
   std::cin>> second;
 
-  std::cout<< "Addition: "<< first << "+" << second << "=";
-  std::cout<< (first+second) << std::endl;
-  std::cout<< "Subtraction: "<< first << "-" << second << "=";
-  std::cout<< (first-second) << std::endl;
-  std::cout<<"Multiplication: " << first << "*" << second << "=" << first * second << std::endl;
+  cout<< "Addition: "<< first << "+" << second << "=";
+  cout<< (first+second) << endl;
+  cout<< "Subtraction: "<< first << "-" << second << "=";
+  cout<< (first-second) << endl;
+  cout<< "Multiplication: "<< first << "*" << second << "=";
+  cout<< (first*second) << endl;
 
   return 0;
 }
