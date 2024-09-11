@@ -18,6 +18,13 @@ int main(){
   cout<< (first-second) << endl;
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
+  cout<< "Divisioon: "<< first << "/" << second << "=";
+  if(second == 0){
+	cout<< "Error - cannot divide by zero!" << endl;
+  }
+  else{
+  	cout<< (first/second) << endl;
+  }
 
   return 0;
 }
