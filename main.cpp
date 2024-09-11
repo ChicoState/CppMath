@@ -7,11 +7,12 @@ int main(){
   std::cin>> first;
   std::cout<< "Second number: ";
   std::cin>> second;
+  
 
   std::cout<< "Addition: "<< first << "+" << second << "=";
   std::cout<< (first+second) << std::endl;
   std::cout<< "Subtraction: "<< first << "-" << second << "=";
   std::cout<< (first-second) << std::endl;
-
+  std::cout<< "Division" << first/second<<std::endl; 
   return 0;
 }
