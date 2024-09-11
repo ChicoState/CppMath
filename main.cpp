@@ -12,6 +12,7 @@ int main(){
   cout<< "Second number: ";
   cin>> second;
 
+
   cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
   cout<< "Subtraction: "<< first << "-" << second << "=";
