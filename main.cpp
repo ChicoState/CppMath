@@ -1,19 +1,20 @@
 #include <iostream>
+using namespace std;
 
 int main(){
   double first, second;
 
-  std::cout<< "First number: ";
-  std::cin>> first;
-  std::cout<< "Second number: ";
-  std::cin>> second;
+  cout<< "First number: ";
+  cin>> first;
+  cout<< "Second number: ";
+  cin>> second;
 
-  std::cout<< "Addition: "<< first << "+" << second << "=";
-  std::cout<< (first+second) << std::endl;
-  std::cout<< "Subtraction: "<< first << "-" << second << "=";
-  std::cout<< (first-second) << std::endl;
-  std::cout<< "Multiplaction: "<< first << "x" << second << "=";
-  std::cout<< (first*second) << std::endl;
+  cout<< "Addition: "<< first << "+" << second << "=";
+  cout<< (first+second) << endl;
+  cout<< "Subtraction: "<< first << "-" << second << "=";
+  cout<< (first-second) << endl;
+  cout<< "Multiplaction: "<< first << "x" << second << "=";
+  cout<< (first*second) << endl;
 
   return 0;
 }
