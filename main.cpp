@@ -5,12 +5,15 @@ using std::cin;
 using std::endl;
 
 int main(){
-  double first, second;
+  double first, second
 
   cout<< "First number: ";
   cin>> first;
   cout<< "Second number: ";
   cin>> second;
+
+
+
 
   cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
