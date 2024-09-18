@@ -1,16 +1,23 @@
-name: C/C++ CI
+name: Build C++
 
-on: [push]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  ubuntu-build:
+  install:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2.0.0
-    - name: Build project
-      uses: nicledomaS/cmake_build_action@v1.4
-      with:
-        submodule_update: ON
-        run_tests: ON
-        unit_test_build: -Dtest=ON
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y -f build-essential g++ cmake
+  build:
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build project
+        run: g++ main.cpp -std=c++17 -o firstIO
