@@ -4,6 +4,9 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+long nCr(int n, int r);
+long fact(int n);
+
 int main(){
   double first, second;
 
