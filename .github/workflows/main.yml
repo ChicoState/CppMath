@@ -43,7 +43,6 @@ void swapPlayerAndMarker(){
 }
 
 void game(){
-    cout<<"Player 1, choose your marker: ";
     char marker_p1;
     cin>>marker_p1;
     current_player=1;
@@ -51,23 +50,18 @@ void game(){
     drawBoard();
     int player_won;
     for(int i=0;i<9;i++){
-        cout<<"It's player "<<current_player<<"'s turn. Enter your slot: ";
         int slot;
         cin>>slot;
         if(slot<1||slot>9){
-            cout<<"Invalid slot! Try again.\n";
             i--;
             continue;
         }
         if(!placeMarker(slot)){
-            cout<<"Slot occupied! Try again.\n";
             i--;
             continue;
         }
         drawBoard();
         player_won=winner();
-        if(player_won==1){cout<<"Player 1 wins!\n";break;}
-        if(player_won==2){cout<<"Player 2 wins!\n";break;}
         swapPlayerAndMarker();
     }
     if(player_won==0)cout<<"It's a tie!\n";
