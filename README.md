@@ -1,3 +1,5 @@
+[![in_class](https://github.com/cmgomes5/CppMath/actions/workflows/workflow.yml/badge.svg)](https://github.com/cmgomes5/CppMath/actions/workflows/workflow.yml)
+
 # CppMath
 
 

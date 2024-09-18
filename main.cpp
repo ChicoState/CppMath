@@ -12,12 +12,14 @@ int main(){
   cout<< "Second number: ";
   cin>> second;
 
+
   cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
   cout<< "Subtraction: "<< first << "-" << second << "=";
   cout<< (first-second) << endl;
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
-
+  cout << "Subtraction2: " << second << "-" << first << "=";
+  cout << (second-first) << endl;
   return 0;
 }
