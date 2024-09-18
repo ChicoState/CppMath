@@ -24,3 +24,6 @@ g++ main.cpp
 and if it compiles successfully, run it with `./a.out`
 
 To exit the container, type `exit`
+
+Status workflow (x06):
+[![Build C++](https://github.com/LeoMalinen2/CppMath/actions/workflows/main.yml/badge.svg)](https://github.com/LeoMalinen2/CppMath/actions/workflows/main.yml)
