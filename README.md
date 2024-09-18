@@ -1,3 +1,5 @@
+[![Build C++](https://github.com/TaigaODonnell/CppMath/actions/workflows/mainBuild.yml/badge.svg)](https://github.com/TaigaODonnell/CppMath/actions/workflows/mainBuild.yml)
+
 # CppMath
 
 
