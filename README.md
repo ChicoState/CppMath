@@ -1,5 +1,6 @@
 # CppMath
 
+[![Build C++](https://github.com/Sam-r-ai/CppMath/actions/workflows/main.yml/badge.svg)](https://github.com/Sam-r-ai/CppMath/actions/workflows/main.yml)
 
 ## Building in docker container
 

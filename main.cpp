@@ -6,7 +6,7 @@ using std::endl;
 
 int main(){
   double first, second;
-
+ //newlineson
   cout<< "First number: ";
   cin>> first;
   cout<< "Second number: ";
