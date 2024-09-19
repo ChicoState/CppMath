@@ -24,3 +24,5 @@ g++ main.cpp
 and if it compiles successfully, run it with `./a.out`
 
 To exit the container, type `exit`
+
+[![Lint Code Base](https://github.com/Shalom-cmd/CppMath/actions/workflows/super-linter.yml/badge.svg)](https://github.com/Shalom-cmd/CppMath/actions/workflows/uper-linter.yml)
