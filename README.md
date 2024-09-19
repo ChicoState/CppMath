@@ -1,5 +1,7 @@
 # CppMath
 
+[![Build C++](https://github.com/TannerHartt/CppMath/actions/workflows/actions.yml/badge.svg)](https://github.com/TannerHartt/CppMath/actions/workflows/actions.yml)
+
 
 ## Building in docker container
 
