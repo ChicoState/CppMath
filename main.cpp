@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 
 int main(){
   double first, second;
 
-  std::cout<< "First number: ";
-  std::cin>> first;
-  std::cout<< "Second number: ";
-  std::cin>> second;
+  cout<< "First number: ";
+  cin>> first;
+  cout<< "Second number: ";
+  cin>> second;
 
   cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
