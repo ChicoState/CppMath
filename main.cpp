@@ -19,5 +19,11 @@ int main(){
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
 
+  if (!second)
+    std::cout<< "Division: Error - cannot divide by zero!\n";
+  else
+    std::cout<< "Division: "<< first<< "/"<< second<< "=" << (first/second)<<std::endl;
+// new change
+
   return 0;
 }
