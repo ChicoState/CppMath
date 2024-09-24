@@ -12,12 +12,13 @@ int main(){
   cout<< "Second number: ";
   cin>> second;
 
-    cout<< "Addition: "<< first << "+" << second << "=";
+  cout<< "Addition: "<< first << "+" << second << "=";
   cout<< (first+second) << endl;
   cout<< "Subtraction: "<< first << "-" << second << "=";
   cout<< (first-second) << endl;
   cout<< "Multiplication: "<< first << "*" << second << "=";
   cout<< (first*second) << endl;
+
   if (!second)
     std::cout<< "Division: Error - cannot divide by zero!\n";
   else
